@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<musicCollection>
+    <genre name="Jazz">
+        <artist name="Miles Davis">
+            <album>
+                <title>Kind of Blue</title>
+                <year>1959</year>
+                <songs>
+                    <song>
+                        <title>So What</title>
+                        <duration>9:22</duration>
+                    </song>
+                    <song>
+                        <title>Freddie Freeloader</title>
+                        <duration>9:46</duration>
+                    </song>
+                </songs>
+            </album>
+            <album>
+                <title>Sketches of Spain</title>
+                <year>1960</year>
+                <songs>
+                    <song>
+                        <title>Concierto de Aranjuez</title>
+                        <duration>16:23</duration>
+                    </song>
+                    <song>
+                        <title>Will O' the Wisp</title>
+                        <duration>3:30</duration>
+                    </song>
+                </songs>
+            </album>
+        </artist>
+
+        <artist name="John Coltrane">
+            <album>
+                <title>A Love Supreme</title>
+                <year>1965</year>
+                <songs>
+                    <song>
+                        <title>Acknowledgement</title>
+                        <duration>7:43</duration>
+                    </song>
+                    <song>
+                        <title>Pursuance</title>
+                        <duration>6:04</duration>
+                    </song>
+                </songs>
+            </album>
+            <album>
+                <title>Giant Steps</title>
+                <year>1960</year>
+                <songs>
+                    <song>
+                        <title>Giant Steps</title>
+                        <duration>4:43</duration>
+                    </song>
+                    <song>
+                        <title>Cousin Mary</title>
+                        <duration>5:47</duration>
+                    </song>
+                </songs>
+            </album>
+        </artist>
+    </genre>
+</musicCollection>

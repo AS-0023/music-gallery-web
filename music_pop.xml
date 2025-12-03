@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<musicCollection>
+    <genre name="Pop">
+        <artist name="Michael Jackson">
+            <album>
+                <title>Thriller</title>
+                <year>1982</year>
+                <songs>
+                    <song>
+                        <title>Beat It</title>
+                        <duration>4:18</duration>
+                    </song>
+                    <song>
+                        <title>Billie Jean</title>
+                        <duration>4:54</duration>
+                    </song>
+                </songs>
+            </album>
+            <album>
+                <title>Bad</title>
+                <year>1987</year>
+                <songs>
+                    <song>
+                        <title>Bad</title>
+                        <duration>4:07</duration>
+                    </song>
+                    <song>
+                        <title>The Way You Make Me Feel</title>
+                        <duration>4:57</duration>
+                    </song>
+                </songs>
+            </album>
+        </artist>
+        <artist name="Madonna">
+            <album>
+                <title>Like a Prayer</title>
+                <year>1989</year>
+                <songs>
+                    <song>
+                        <title>Like a Prayer</title>
+                        <duration>5:40</duration>
+                    </song>
+                    <song>
+                        <title>Express Yourself</title>
+                        <duration>4:30</duration>
+                    </song>
+                </songs>
+            </album>
+            <album>
+                <title>True Blue</title>
+                <year>1986</year>
+                <songs>
+                    <song>
+                        <title>Live to Tell</title>
+                        <duration>5:30</duration>
+                    </song>
+                    <song>
+                        <title>Papa Don't Preach</title>
+                        <duration>5:34</duration>
+                    </song>
+                </songs>
+            </album>
+        </artist>
+    </genre>
+</musicCollection>

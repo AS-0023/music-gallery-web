@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<musicCollection>
+    <genre name="Rock">
+        <artist name="The Beatles">
+            <album>
+                <title>Abbey Road</title>
+                <year>1969</year>
+                <songs>
+                    <song>
+                        <title>Come Together</title>
+                        <duration>4:20</duration>
+                    </song>
+                    <song>
+                        <title>Something</title>
+                        <duration>3:03</duration>
+                    </song>
+                </songs>
+            </album>
+            <album>
+                <title>Let It Be</title>
+                <year>1970</year>
+                <songs>
+                    <song>
+                        <title>Across The Universe</title>
+                        <duration>3:48</duration>
+                    </song>
+                    <song>
+                        <title>Let It Be</title>
+                        <duration>4:01</duration>
+                    </song>
+                </songs>
+            </album>
+        </artist>
+        <artist name="Queen">
+            <album>
+                <title>A Night at the Opera</title>
+                <year>1975</year>
+                <songs>
+                    <song>
+                        <title>Bohemian Rhapsody</title>
+                        <duration>5:55</duration>
+                    </song>
+                    <song>
+                        <title>Love of My Life</title>
+                        <duration>3:39</duration>
+                    </song>
+                </songs>
+            </album>
+            <album>
+                <title>News of the World</title>
+                <year>1977</year>
+                <songs>
+                    <song>
+                        <title>We Will Rock You</title>
+                        <duration>2:02</duration>
+                    </song>
+                    <song>
+                        <title>We Are the Champions</title>
+                        <duration>3:00</duration>
+                    </song>
+                </songs>
+            </album>
+        </artist>
+    </genre>
+</musicCollection>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Player Toggle</title>
+    <style>
+        /* Style for the button */
+        #showAudioButton {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        /* Style for the audio iframe container */
+        #audioPlayerContainer {
+            display: none;  /* Initially hidden */
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Click the Button to Show Audio</h1>
+
+    <!-- Button to show the audio player -->
+    <button id="showAudioButton">Show Audio</button>
+
+    <!-- Audio Player container (initially hidden) -->
+    <div id="audioPlayerContainer">
+        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" 
+                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1923988487&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+        </iframe>
+    </div>
+
+    <script>
+        // Get the button and the audio player container
+        const button = document.getElementById('showAudioButton');
+        const audioContainer = document.getElementById('audioPlayerContainer');
+
+        // Add click event listener to the button
+        button.addEventListener('click', function() {
+            // Toggle the visibility of the audio player container
+            if (audioContainer.style.display === 'none') {
+                audioContainer.style.display = 'block';  // Show the audio player
+                button.textContent = 'Hide Audio';  // Change button text
+            } else {
+                audioContainer.style.display = 'none';  // Hide the audio player
+                button.textContent = 'Show Audio';  // Change button text
+            }
+        });
+    </script>
+
+</body>
+</html>
